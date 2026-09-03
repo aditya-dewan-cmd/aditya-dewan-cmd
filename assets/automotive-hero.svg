@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-label="Premium automotive headlight startup animation">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#05040a"/>
+      <stop offset="0.5" stop-color="#0d0916"/>
+      <stop offset="1" stop-color="#05040a"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" x2="1">
+      <stop offset="0" stop-color="#9b7cff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#e9e1ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#9b7cff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-100%" width="200%" height="300%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <clipPath id="leftClip"><path d="M105 236 Q150 152 310 146 L430 190 L382 274 L205 285 Q135 279 105 236Z"/></clipPath>
+    <clipPath id="rightClip"><path d="M1095 236 Q1050 152 890 146 L770 190 L818 274 L995 285 Q1065 279 1095 236Z"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="430" rx="18" fill="url(#bg)"/>
+
+  <text x="600" y="48" text-anchor="middle" fill="#bca9ff" font-family="monospace" font-size="14" letter-spacing="6">// SYSTEM INITIALIZING //</text>
+
+  <!-- subtle car silhouette -->
+  <path d="M155 255 Q220 118 390 92 Q600 58 810 92 Q980 118 1045 255 L1080 340 L120 340Z" fill="#08070d" stroke="#2b2145" stroke-width="2"/>
+  <path d="M300 115 Q600 62 900 115" fill="none" stroke="#4b376f" stroke-width="2" opacity=".65"/>
+
+  <!-- grille -->
+  <path d="M490 165 Q600 140 710 165 L680 275 Q600 292 520 275Z" fill="#07070a" stroke="#8f75d7" stroke-width="2" opacity=".9"/>
+  <path d="M520 178 Q600 160 680 178 M514 197 Q600 180 686 197 M509 218 Q600 202 691 218 M505 241 Q600 225 695 241" fill="none" stroke="#332750" stroke-width="4"/>
+
+  <!-- headlight housings -->
+  <path d="M105 236 Q150 152 310 146 L430 190 L382 274 L205 285 Q135 279 105 236Z" fill="#090812" stroke="#59468a" stroke-width="2"/>
+  <path d="M1095 236 Q1050 152 890 146 L770 190 L818 274 L995 285 Q1065 279 1095 236Z" fill="#090812" stroke="#59468a" stroke-width="2"/>
+
+  <!-- left light signature -->
+  <g fill="none" stroke="#ded5ff" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M145 225 Q178 174 268 171 L354 191" stroke-width="8" opacity=".9">
+      <animate attributeName="stroke-dasharray" values="0 500;500 0" dur="1.4s" fill="freeze"/>
+    </path>
+    <path d="M168 244 Q196 202 270 199 L333 212" stroke-width="6" opacity=".8">
+      <animate attributeName="stroke-dasharray" values="0 400;400 0" dur="1.2s" begin=".25s" fill="freeze"/>
+    </path>
+    <path d="M190 261 Q214 229 273 226 L316 234" stroke-width="5" opacity=".72">
+      <animate attributeName="stroke-dasharray" values="0 300;300 0" dur="1s" begin=".45s" fill="freeze"/>
+    </path>
+  </g>
+
+  <!-- right light signature -->
+  <g fill="none" stroke="#ded5ff" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M1055 225 Q1022 174 932 171 L846 191" stroke-width="8" opacity=".9">
+      <animate attributeName="stroke-dasharray" values="0 500;500 0" dur="1.4s" begin=".15s" fill="freeze"/>
+    </path>
+    <path d="M1032 244 Q1004 202 930 199 L867 212" stroke-width="6" opacity=".8">
+      <animate attributeName="stroke-dasharray" values="0 400;400 0" dur="1.2s" begin=".4s" fill="freeze"/>
+    </path>
+    <path d="M1010 261 Q986 229 927 226 L884 234" stroke-width="5" opacity=".72">
+      <animate attributeName="stroke-dasharray" values="0 300;300 0" dur="1s" begin=".6s" fill="freeze"/>
+    </path>
+  </g>
+
+  <!-- startup sweep -->
+  <rect x="150" y="312" width="900" height="3" rx="2" fill="url(#beam)" filter="url(#glow)">
+    <animate attributeName="x" values="150;1050;150" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="600" y="362" text-anchor="middle" fill="#eeeaff" font-family="monospace" font-size="34" font-weight="700" letter-spacing="9">ADITYA.DEWAN</text>
+  <text x="600" y="393" text-anchor="middle" fill="#a997d9" font-family="monospace" font-size="13" letter-spacing="4">SOFTWARE  ·  AI/ML  ·  AUTOMOTIVE  ·  IoT  ·  CLOUD</text>
+</svg>
