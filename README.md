@@ -20,11 +20,7 @@ Building at the intersection of **Automotive Software, IoT, AI/ML & Cloud**.
 
 <div align="center">
 
-### 🚗 AUTO LAB
-
-**VEHICLE TELEMETRY // SYSTEM ONLINE**
-
-<img src="./assets/automotive-telemetry.svg" width="900" alt="Automotive vehicle telemetry dashboard">
+<img src="./assets/automotive-hero.svg" width="900" alt="Premium automotive headlight startup animation">
 
 </div>
 
@@ -193,27 +189,6 @@ B.Tech — Computer Science Engineering
 
 ---
 
-## ⚡ HOW I BUILD
-
-```text
-CURIOUS
-   ↓
-IDEA
-   ↓
-EXPERIMENT
-   ↓
-BUILD
-   ↓
-DEBUG
-   ↓
-SHIP
-   ↓
-LEARN
-   ↓
-REPEAT
-```
-
----
 
 <div align="center">
 
