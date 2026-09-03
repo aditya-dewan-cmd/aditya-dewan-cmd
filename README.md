@@ -18,10 +18,6 @@ Building at the intersection of **Automotive Software, IoT, AI/ML & Cloud**.
 
 ---
 
-
-
----
-
 ## 👋 ABOUT ME
 
 I'm **Aditya Dewan**, a Computer Science Engineering student at **Graphic Era Hill University**.
