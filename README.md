@@ -1,50 +1,76 @@
-# ADITYA.DEWAN
+<h1 align="center">ADITYA.DEWAN</h1>
 
-### `idea → experiment → build → learn → repeat`
+<p align="center">
+<b>Computer Science Engineering Student · Builder · Explorer</b>
+</p>
 
-**Computer Science Engineering Student · Builder · Explorer**
+<p align="center">
+Turning ideas into systems, experiments into projects, and projects into experience.
+</p>
 
-I like turning curious ideas into working systems — from AI and computer vision to cloud-backed applications, algorithms, healthcare tools, and hardware experiments.
+<p align="center">
+<a href="https://www.linkedin.com/in/aditya-dewan-70739024a">LinkedIn</a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="https://github.com/aditya-dewan-cmd">GitHub</a>
+</p>
 
 ---
 
-## `01 — THE BUILD LOG`
+## 🧭 NAVIGATION
 
-> I don't really have one lane. I have a workshop.
+[ABOUT ME](#-about-me) ·
+[BUILD LOG](#-build-log) ·
+[TECH STACK](#-tech-stack) ·
+[ACHIEVEMENTS](#-achievements--learning) ·
+[GITHUB](#-github)
 
-| Project | What I explored | Status |
-|---|---|---|
-| 🦾 **SenseLink** | AI · Accessibility · Computer Vision · Assistive Tech | HACKATHON |
-| 🚗 **Cloud Vehicle Simulator** | Python · Flask · REST · Docker · Simulation | BUILT |
-| 💊 **PharmaSafe** | Healthcare · ML · Inventory Intelligence · Automation | PROJECT |
-| 🏥 **MedSched** | Scheduling · OS Concepts · Healthcare · Next.js | PROJECT |
-| 📈 **Stock Market DAA** | Algorithms · Market Data · Flask · Prediction | BUILT |
+---
 
-### 🦾 SenseLink
+# 👋 ABOUT ME
 
-An assistive technology platform designed around **blind and deaf users**.
+I'm **Aditya Dewan**, a Computer Science Engineering student at **Graphic Era Hill University**.
 
-Built around ideas like:
+I enjoy building practical systems that combine programming, algorithms, AI/ML, backend development and hardware.
 
-- 🎙️ Voice-controlled interaction
-- 👁️ Object detection with YOLOv8
-- 🧭 GPS-based navigation
-- 🆘 SOS with live location
-- 🔊 Sound detection
-- 📝 OCR and speech features
-- 🌐 Cross-sense accessibility
+My projects have taken me through:
 
-> Built in 24 hours for Hack-o-Holic 4.0.
+- 🤖 Artificial Intelligence
+- 👁️ Computer Vision
+- 🌐 Web & Backend Development
+- ☁️ Cloud & Docker
+- 📊 Data & Algorithms
+- 🏥 Healthcare Technology
+- 🔌 IoT & Embedded Systems
+
+**I don't really have one lane. I have a workshop.**
+
+---
+
+# 🔨 BUILD LOG
+
+### 🦾 [SenseLink](https://github.com/aditya-dewan-cmd/Sense_Link)
+
+**Assistive technology for blind & deaf users**
+
+`AI` `Computer Vision` `YOLOv8` `GPS` `Flask` `ESP32-CAM`
+
+- Object detection
+- Voice interaction
+- Smart navigation
+- Sound detection
+- OCR
+- SOS with live location
+- Accessibility-focused interaction
 
 ---
 
 ### 🚗 Cloud-Based Vehicle Simulation
 
-A simulation platform exploring how vehicles behave under changing conditions.
+**Vehicle performance simulation & analytics platform**
 
-**Inputs → Simulation → Analysis → Visualization**
+`Python` `Flask` `REST API` `Docker` `Chart.js`
 
-It works with factors such as:
+Simulates:
 
 - Speed
 - Fuel consumption
@@ -53,125 +79,140 @@ It works with factors such as:
 - Road conditions
 - Traffic density
 
-Built with **Python, Flask, Docker, REST APIs, Chart.js and NGINX**.
-
 ---
 
-### 💊 PharmaSafe
+### 💊 [PharmaSafe](https://github.com/aditya-dewan-cmd/Pharmasafe)
 
-A healthcare-focused system for intelligent medicine inventory management.
+**Medicine inventory & expiry intelligence**
 
-Explores:
+`Next.js` `React` `Python` `Machine Learning` `SQL`
 
 - Medicine expiry prediction
-- Stock prioritization
-- FEFO inventory management
+- FEFO stock prioritization
 - Automated alerts
-- Analytics dashboards
+- Inventory analytics
 - CSV/PDF reporting
-
-A project at the intersection of **software + healthcare + machine learning**.
 
 ---
 
-### 🏥 MedSched
+### 🏥 [MedSched](https://github.com/aditya-dewan-cmd/MedSched-Smart-Healthcare)
 
-A smart healthcare scheduling concept focused on:
+**Smart healthcare scheduling system**
+
+`Next.js` `TypeScript` `Tailwind CSS`
 
 - Patient queues
-- Hospital resources
-- Scheduling
+- Hospital scheduling
+- Resource allocation
 - Priority handling
 - Deadlock prevention
 
-Built with **Next.js, TypeScript, Tailwind CSS and modern UI components**.
-
 ---
 
-### 📈 Stock Market Analysis using DAA
+### 📈 [Stock Market DAA](https://github.com/aditya-dewan-cmd/stock-market-daa)
 
-A project combining **Data Structures & Algorithms with financial data**.
+**Stock market analysis using algorithms**
 
-Features include:
+`Python` `Flask` `Pandas` `Matplotlib`
 
-- Real-time market data
+- Market data analysis
 - Greedy trading strategy
 - Linear regression
 - Data visualization
-- Automated PDF reports
-- Flask web interface
+- Automated reports
 
 ---
 
-## `02 — MY TOOLBOX`
+# 🧰 TECH STACK
 
-### Languages
+**Languages**
 
-`C++` `Python` `JavaScript` `TypeScript`
+`C++` · `Python` · `JavaScript` · `TypeScript`
 
-### Web & Backend
+**Development**
 
-`React` `Next.js` `Flask` `REST APIs`
+`React` · `Next.js` · `Flask` · `REST APIs`
 
-### AI / Data
+**AI / Data**
 
-`Machine Learning` `Computer Vision` `Pandas` `Matplotlib`
+`Machine Learning` · `Computer Vision` · `Pandas` · `Matplotlib`
 
-### Systems & Tools
+**Tools**
 
-`Docker` `NGINX` `Git` `GitHub`
+`Git` · `GitHub` · `Docker` · `NGINX`
 
-### Hardware
+**Hardware**
 
-`Arduino` `ESP32` `IoT` `Sensors`
+`Arduino` · `ESP32` · `IoT` · `Sensors`
 
-### Foundations
+**Foundations**
 
-`Data Structures & Algorithms` `OOP` `OS Concepts`
+`DSA` · `OOP` · `Operating Systems`
 
 ---
 
-## `03 — SIGNALS`
+# 🏆 ACHIEVEMENTS & LEARNING
 
-Things that have shaped my journey so far:
+### 🥇 Hack-o-Holic 4.0
 
-🏆 **Hack-o-Holic 4.0**  
-Built SenseLink with Team Coders Creed in a 24-hour hackathon.
+Built **SenseLink** in a 24-hour hackathon.
 
-☁️ **AWS Cloud Essentials**  
-Explored the fundamentals of cloud computing and AWS.
+Reached the finale from **200+ registrations**.
 
-📡 **NPTEL — Wireless Ad Hoc and Sensor Networks**  
+### 📡 NPTEL
+
+**Wireless Ad Hoc and Sensor Networks**
+
 **Elite · 85%**
 
-🤖 **AI Foundation Course — Jio Institute**
+### ☁️ AWS Cloud Essentials
 
-🎓 **B.Tech — Computer Science Engineering**  
-Graphic Era Hill University · 2023–2027
+Completed AWS Cloud Essentials training.
+
+### 🤖 AI Foundation Course
+
+**Jio Institute**
+
+### 🎓 Education
+
+**Graphic Era Hill University**
+
+B.Tech — Computer Science Engineering
+
+`2023 — 2027`
 
 ---
 
-## `04 — HOW I BUILD`
+# ⚡ HOW I BUILD
 
 ```text
-        CURIOUS
-           │
-           ▼
-         IDEA
-           │
-           ▼
-       EXPERIMENT
-           │
-           ▼
-         BUILD
-           │
-           ▼
-         DEBUG
-           │
-           ▼
-         SHIP
-           │
-           ▼
-         LEARN
-           │
-           └──────────► repeat
+CURIOUS
+   ↓
+IDEA
+   ↓
+EXPERIMENT
+   ↓
+BUILD
+   ↓
+DEBUG
+   ↓
+SHIP
+   ↓
+LEARN
+   ↓
+REPEAT
+📊 GITHUB
+📦 VIEW MY REPOSITORIES⁠�
+👤 VIEW MY GITHUB PROFILE⁠�
+🌐 CONNECT
+LinkedIn — Aditya Dewan⁠�
+GitHub — aditya-dewan-cmd⁠�
+�
+
+STATUS: ONLINE
+�
+
+
+Still learning. Still building. Still shipping.
+�
+```
