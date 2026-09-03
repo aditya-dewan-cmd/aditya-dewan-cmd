@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 390">
+<defs>
+ <linearGradient id="bg" x2="1"><stop stop-color="#090817"/><stop offset="1" stop-color="#171127"/></linearGradient>
+ <style>
+ .t{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+ .lane{stroke:#75659a;stroke-width:3;fill:none}
+ .dash{stroke:#cbbcf7;stroke-width:3;stroke-dasharray:22 18;fill:none;animation:dash 1.3s linear infinite}
+ .dot{animation:pulse 1.4s ease-in-out infinite alternate}
+ .car{animation:lap 6s linear infinite}
+ @keyframes dash{to{stroke-dashoffset:-40}} @keyframes pulse{to{opacity:.35}} 
+ @keyframes lap{0%{transform:translate(115px,270px)}25%{transform:translate(780px,270px)}50%{transform:translate(850px,110px)}75%{transform:translate(180px,110px)}100%{transform:translate(115px,270px)}}
+ @media(prefers-reduced-motion:reduce){.dash,.dot,.car{animation:none}}
+ </style>
+</defs>
+<rect width="1000" height="390" rx="24" fill="url(#bg)" stroke="#6f5aa8" stroke-opacity=".55"/>
+<text x="42" y="45" class="t" fill="#cbbcf7" font-size="13" letter-spacing="4">GITHUB // CONTRIBUTION CIRCUIT</text>
+<text x="42" y="76" class="t" fill="#fff" font-size="25" font-weight="700">EVERY COMMIT ADDS ANOTHER LAP.</text>
+<text x="42" y="99" class="t" fill="#9d93b8" font-size="12">BUILD • COMMIT • SHIP • REPEAT</text>
+
+<rect x="65" y="125" width="870" height="185" rx="90" fill="#11101b" stroke="#302746" stroke-width="28"/>
+<path class="lane" d="M135 270 H800 Q850 270 850 220 V175 Q850 120 795 120 H205 Q150 120 150 175 V220 Q150 270 205 270 H800"/>
+<path class="dash" d="M135 270 H800 Q850 270 850 220 V175 Q850 120 795 120 H205 Q150 120 150 175 V220 Q150 270 205 270 H800"/>
+
+<!-- contribution intensity blocks -->
+<g>
+<rect class="dot" x="105" y="255" width="16" height="16" rx="4" fill="#29213d"/>
+<rect class="dot" x="140" y="255" width="16" height="16" rx="4" fill="#40315d"/>
+<rect class="dot" x="175" y="255" width="16" height="16" rx="4" fill="#5a447e"/>
+<rect class="dot" x="210" y="255" width="16" height="16" rx="4" fill="#7658a2"/>
+<rect class="dot" x="245" y="255" width="16" height="16" rx="4" fill="#9673c9"/>
+<rect class="dot" x="280" y="255" width="16" height="16" rx="4" fill="#b89ce8"/>
+<rect class="dot" x="315" y="255" width="16" height="16" rx="4" fill="#5a447e"/>
+<rect class="dot" x="350" y="255" width="16" height="16" rx="4" fill="#7658a2"/>
+<rect class="dot" x="385" y="255" width="16" height="16" rx="4" fill="#b89ce8"/>
+<rect class="dot" x="420" y="255" width="16" height="16" rx="4" fill="#40315d"/>
+<rect class="dot" x="455" y="255" width="16" height="16" rx="4" fill="#9673c9"/>
+<rect class="dot" x="490" y="255" width="16" height="16" rx="4" fill="#5a447e"/>
+<rect class="dot" x="525" y="255" width="16" height="16" rx="4" fill="#b89ce8"/>
+<rect class="dot" x="560" y="255" width="16" height="16" rx="4" fill="#7658a2"/>
+<rect class="dot" x="595" y="255" width="16" height="16" rx="4" fill="#40315d"/>
+<rect class="dot" x="630" y="255" width="16" height="16" rx="4" fill="#9673c9"/>
+<rect class="dot" x="665" y="255" width="16" height="16" rx="4" fill="#b89ce8"/>
+<rect class="dot" x="700" y="255" width="16" height="16" rx="4" fill="#5a447e"/>
+</g>
+
+<g class="car">
+ <text x="-14" y="8" font-size="32">🏎️</text>
+</g>
+
+<g class="t">
+ <text x="70" y="342" fill="#9d93b8" font-size="11">LOW ACTIVITY</text>
+ <rect x="170" y="333" width="14" height="14" rx="3" fill="#29213d"/><rect x="191" y="333" width="14" height="14" rx="3" fill="#5a447e"/><rect x="212" y="333" width="14" height="14" rx="3" fill="#9673c9"/><rect x="233" y="333" width="14" height="14" rx="3" fill="#b89ce8"/>
+ <text x="255" y="342" fill="#9d93b8" font-size="11">HIGH ACTIVITY</text>
+ <text x="700" y="342" fill="#cbbcf7" font-size="11">STATUS: SHIPPING</text>
+</g>
+</svg>
