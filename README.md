@@ -20,7 +20,7 @@ Building at the intersection of **Automotive Software, IoT, AI/ML & Cloud**.
 
 <div align="center">
 
-<img src="./assets/automotive-hero.svg" width="900" alt="BMW-inspired premium automotive front-end startup animation">
+<img src="./assets/automotive-hero.svg" width="900" alt="BMW-inspired black performance front with yellow DRL startup animation">
 
 </div>
 
